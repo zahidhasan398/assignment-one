@@ -1,1 +1,100 @@
 /* universal style */
+*{
+    margin: 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+}
+/* design banner */
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    height: 765px;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 125px;
+}
+.banner div{
+    text-align: right;
+}
+.banner-title{
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 79px;
+    color: white;
+}
+.banner-content{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #ffffff8a
+}
+.banner-btn{
+    color: blue;
+    font-weight: 400;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 29px;
+    margin-top: 30px;
+}
+/* my failure section */
+.my-failure-section{
+    display: flex;
+    align-items: center;
+    margin: 161px 102px;
+    gap: 19px;
+}
+.my-failure-div h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 65px;
+    color: black;
+}
+.my-failure-div p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000a6;
+    margin-top: 27px;
+}
+.my-failure-div h3{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0px;
+    color: #000000a6;
+    margin-top: 27px;
+}
+.my-failure-div h3 i{
+    color: green;
+    font-weight: bold;
+}
+/* my plan class style here */
+.my-plan-header{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    color: black;
+    line-height: 208px;
+}
+.my-plan-morals{
+    display: flex;
+    justify-content: space-around;
+    margin: 3px 48px;
+}
+.my-plan-morals li{
+    text-align: center;
+    list-style: none;
+}
+.my-plan-morals li h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+}
+.my-plan-morals li h4{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000b0;
+}
