@@ -98,3 +98,86 @@
     line-height: 21px;
     color: #000000b0;
 }
+/* always-keep-positive-section */
+.always-keep-positive-section{
+    
+    background-image:url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    margin: 99px 250px;
+    border-radius: 15px;
+    padding: 70px 40px;
+    background-blend-mode: multiply;
+}
+.always-keep-positive-section h1{
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 36px;
+    color: white;
+}
+.positive-section-btn{
+    font-weight: 700;
+    font-size: 16px;
+    background-color: white;
+    padding: 14px 15px;
+    border-radius: 5px;
+    color: blue;
+    border: 0px;
+    margin-top: 19px;
+}
+/* style footer */
+footer{
+    display: flex;
+    background-color: black;
+    padding: 141px 210px;
+    color: white;
+    gap: 111px;
+}
+footer div h1{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 64px;
+}
+footer div p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #ffffff94;
+}
+footer div h5{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #ffffff94;
+}
+.footer-social-icon{
+    display: flex;
+    gap: 22px;
+    margin: 33px -37px;
+}
+
+.footer-social-icon li{
+    list-style: none;
+}
+footer div h3{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 54px;
+}
+form input[type="email"]{
+    width: 222px;
+    height: 20px;
+    padding: 5px;
+    background: black;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+form input[type="submit"]{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    padding: 11px 22px;
+    border: 0px;
+    border-radius: 5px;
+    margin: 28px 0px;
+}
