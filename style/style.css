@@ -101,7 +101,7 @@
 /* always-keep-positive-section */
 .always-keep-positive-section{
     
-    background-image:url(../images/gradient2.png), url(../images/watch.png);
+    background-image:url('../images/gradient1.png'),url(../images/watch.png);
     background-repeat: no-repeat;
     margin: 99px 250px;
     border-radius: 15px;
@@ -180,4 +180,41 @@ form input[type="submit"]{
     border: 0px;
     border-radius: 5px;
     margin: 28px 0px;
+}
+/* custom section */
+.custom-section-header{
+    text-align: center;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 139px;
+    color: #000000cc;
+}
+.custom-section-content{
+    display: flex;
+    margin: 10px 200px;
+    gap: 18px;
+}
+.custom-section-content div{
+    text-align: left;
+    background: #00000008;
+    padding: 26px 29px;
+    border-radius: 3px;
+}
+
+.custom-section-content div h1{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 49px;
+} 
+.custom-section-content div h3{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.custom-section-content div p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #00000096;
+    text-align: left;
 }
